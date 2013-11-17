@@ -11,11 +11,13 @@ setwd('c:/sci/042prphts/data/')
 # Screen summary: http://pubchem.ncbi.nlm.nih.gov/assay/assay.cgi?aid=720596
 
 # primary screen data: # http://pubchem.ncbi.nlm.nih.gov/assay/assay.cgi?aid=720596&q=expdata_csvsave
-fehta_primary = read.csv('prpfehta/AID_720596_data.csv') 
+fehta_primary = read.csv('prpfehta/AID_720596_data.csv')  
+dim(fehta_primary) # 370276 7
 
 
 # 2. PrP 5'UTR inhibitor screening results:
 # Screen summary: http://pubchem.ncbi.nlm.nih.gov/assay/assay.cgi?aid=488894&loc=ea_ras
 
 # primary screen data: # http://pubchem.ncbi.nlm.nih.gov/assay/assay.cgi?aid=488862&q=expdata_csvsave
-utr_primary = read.csv('5utr/AID_488862_data.csv') 
+utr_primary = read.csv('5utr/AID_488862_data.csv')  
+dim(utr_primary) # 335011 11
